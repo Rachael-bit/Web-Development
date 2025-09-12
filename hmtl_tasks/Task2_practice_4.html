@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <p><h5>Fill your details below.</h5></p>
+
+<div style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; max-width: 500px;">
+    <h3 style="color: #2c3e50;">Basic Contact Form</h3>
+    
+    <form>
+        <div style="margin-bottom: 15px;">
+            <label for="fullname" style="display: block; margin-bottom: 5px; font-weight: bold; color: black;">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" 
+                   style="width: 90%; padding: 8px; border: 2px solid #ddd; border-radius: 5px;" 
+                   placeholder="Enter your full name">
+        </div>
+        
+        <div style="margin-bottom: 15px;">
+            <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold; color: black;">Email:</label>
+            <input type="email" id="email" name="email" 
+                   style="width: 90%; padding: 8px; border: 2px solid #ddd; border-radius: 5px;" 
+                   placeholder="your.email@example.com">
+        </div>
+        
+        <div style="margin-bottom: 15px;">
+            <label for="password-input" style="display: block; margin-bottom: 5px;"><strong>Password:</strong></label>
+            <input type="password" id="password-input" placeholder="Enter password" 
+                   style="width: 70%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+        </div>
+
+            <legend style="font-weight: bold;">Gender (Select one):</legend>
+            
+            <div>
+                <p><label><input type="radio" name="experience" value="male"> Male</label></p>
+                <p><label><input type="radio" name="experience" value="female"> Female</label></p>
+                <p><label><input type="radio" name="experience" value="advanced"> Not disclosing</label></p>
+            </div>
+
+            <div style="margin-bottom: 15px;">
+            <label for="country" style="display: block; margin-bottom: 5px; font-weight: bold;">Country:</label>
+            <select id="country" name="country" style="width: 100%; padding: 8px; border: 2px solid #ddd; border-radius: 5px;">
+                <option value="">Select your country</option>
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="ca">Canada</option>
+                <option value="ng">Nigeria</option>
+                <option value="gh">Ghana</option>
+                <option value="ke">Kenya</option>
+                <option value="ger">Germany</option>
+            </select>
+        </div>
+
+       <button type="submit" style="background-color: #273bae; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+            Submit
+        </button> 
+    
+    </form>
+</div>
+
+</body>
+</html>
