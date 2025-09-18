@@ -1,0 +1,16 @@
+.quote{
+            font-size: larger; 
+            font-style: italic;
+            text-align: center;
+        }
+
+.author{
+            font-size: smaller;
+            text-align: right;
+        }
+.main{
+    background-color: aquamarine;
+    height: 200px;
+    width: 50%;
+    align-items: center;
+}

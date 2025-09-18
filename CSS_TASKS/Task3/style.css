@@ -1,0 +1,27 @@
+   .main{
+            background-color: blanchedalmond;
+            padding: 20px;
+            margin-bottom: 30px;
+            border: 10px solid gold;
+
+        }
+        .About{
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(185, 114, 6);
+            background-color: whitesmoke;
+            font-weight: bold;
+        }
+
+        .hobbies{
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(185, 114, 6);
+            background-color: whitesmoke;
+            font-weight: bold;
+        }
+
+        .conclude{
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(185, 114, 6);
+            background-color: whitesmoke;
+            font-weight: bold;
+        }
